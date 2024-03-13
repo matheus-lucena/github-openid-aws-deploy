@@ -21,7 +21,7 @@ resource "aws_api_gateway_deployment" "main" {
 resource "aws_api_gateway_stage" "main" {
   deployment_id = aws_api_gateway_deployment.main.id
   rest_api_id   = aws_api_gateway_rest_api.main.id
-  stage_name    = "$default"
+  stage_name    = var.stage
 }
 
 resource "aws_api_gateway_resource" "ping_resource" {
