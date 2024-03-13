@@ -1,0 +1,1 @@
+name = "teste-github-openid-aws"
