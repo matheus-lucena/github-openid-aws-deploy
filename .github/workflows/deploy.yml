@@ -3,7 +3,7 @@ name: "Deploy with github openid"
 on:
   push:
     branches:
-      - master
+      - main
 
 env:
   TF_LOG: INFO
