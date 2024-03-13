@@ -1,1 +1,1 @@
-name  = "teste-github-openid-aws"
+name = "teste-github-openid-aws"
